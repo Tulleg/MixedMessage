@@ -1,4 +1,4 @@
-const args = process.argv.slice(2);
+const args = process.argv.slice(2);                     // argv is an array from Node which includes the complete Shell command, So slice it and have the third argument(this you need)
 const firstParts = ['You', 'We', 'Humans', 'People', 'Aliens'];
 const secondParts = ['are','will be', 'likely'];
 const thirdParts = ['the best', 'wonderful', 'super', 'tough', 'make it', 'unstoppable'];

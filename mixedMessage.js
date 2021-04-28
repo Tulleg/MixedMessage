@@ -1,5 +1,5 @@
 const firstParts = ['You', 'We', 'Humans', 'People', 'Aliens'];
-const secondParts = ['are','will be'];
+const secondParts = ['are','will be', 'likely'];
 const thirdParts = ['the best', 'wonderful', 'super', 'tough', 'make it', 'unstoppable'];
 
 
@@ -15,4 +15,4 @@ const createMessage = (name) => {                                               
     console.log(motMessage);
 }
 
-
+createMessage()

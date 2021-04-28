@@ -5,8 +5,12 @@ A Console Tool to create randomized motivational messages.
 ## Languages
 ---------------
 - Javascript
+- Node.js
 
 ## Setup
 ----------------
 
-- call the  createMessage() function without any parameter and get a message that motivates you or if you like, insert a Name ('String') as a parameter 
+- you have to install node.js
+- cd to the place where you save the file
+- then type node mixedMessages.js 
+- enjoy your personal Message

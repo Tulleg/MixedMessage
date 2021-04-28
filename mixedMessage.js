@@ -1,6 +1,8 @@
+const args = process.argv.slice(2);
 const firstParts = ['You', 'We', 'Humans', 'People', 'Aliens'];
 const secondParts = ['are','will be', 'likely'];
 const thirdParts = ['the best', 'wonderful', 'super', 'tough', 'make it', 'unstoppable'];
+
 
 
 const createMessage = (name) => {                                                   //Create a Message with random Items from firstParts, secondParts, thirParts
@@ -15,4 +17,4 @@ const createMessage = (name) => {                                               
     console.log(motMessage);
 }
 
-createMessage()
+createMessage(args[0])

@@ -9,4 +9,4 @@ A Console Tool to create randomized motivational messages.
 ## Setup
 ----------------
 
-- call the XXX function without any parameter and get a message that motivates you 
+- call the  createMessage() function without any parameter and get a message that motivates you or if you like, insert a Name ('String') as a parameter 
